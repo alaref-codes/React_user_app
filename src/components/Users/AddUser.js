@@ -28,7 +28,6 @@ const AddUser = props => {
             return;
         }
         props.onAddUser(enteredUsername , enteredAge)
-
     }
 
     const usernameChange = event => {
@@ -40,8 +39,8 @@ const AddUser = props => {
         setEnteredAge(event.target.value)
     }
 
-    const cancelHandler = () => {
-        setError(null)
+    function cancelHandler() {
+        setError(null);
     }
 
     return (
