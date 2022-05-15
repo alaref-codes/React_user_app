@@ -1,4 +1,4 @@
-function Wrapper() {
+function Wrapper(props) {
     return props.children;
 }
 
